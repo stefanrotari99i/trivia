@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: #ffffff;
+  @apply bg-neutral-950;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.header-content {
+  clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%);
+}
